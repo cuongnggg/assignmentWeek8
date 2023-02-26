@@ -1,0 +1,54 @@
+body{
+    background-color: #927df1;
+    display: flex; /* Kích hoạt flexbox cho phần tử chứ */
+    align-items: center; /* Chỉnh cho phần tử con căn giữa */
+    justify-content: center; /*Căn chỉnh nội dung trong container*/
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Khoảng cách giữa các box */   
+}
+
+.arrow{
+    height: 150px;
+    cursor: pointer; /* chuột có thể trỏ tới */
+
+}
+
+.frame{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;   
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider{
+    display: flex;
+    transition: all 1s ease;
+
+}
+
+.bottom{
+    display: flex;
+    gap: 50px;
+}
+.button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer; /*Thiết lập kiểu trỏ chuột khi trỏ vào thành phần*/
+}
